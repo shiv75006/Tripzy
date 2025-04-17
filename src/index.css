@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+@font-face {
+  font-family: "Fascinate";   /*Can be any text*/
+  src: local("FascinateInline-Regular"),
+    url("./fonts/FascinateInline-Regular.ttf") format("truetype");
+}
