@@ -3,6 +3,7 @@ import Himg from '../assets/hotel.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Hotel = () => {
 
@@ -26,7 +27,9 @@ const Hotel = () => {
                    </p>
 
                    <p data-aos="fade-left" className='m-12 text-brown text-justify'>Whether you’re looking for a cozy stay near the beach or a chic hotel in the city center, Tripzy’s AI has you covered. With curated options based on your destination, budget, and preferences, finding the perfect place to stay has never been easier.</p>
+                <Link to={'/hotel-suggestions'}>
                 <button data-aos="fade-left" className='ml-12 mb-12 border p-2 text-brown rounded-full hover:bg-l-brown shadow:md'>Browse Hotels Now</button>
+                </Link>
             </div>
         </div>
     </div>

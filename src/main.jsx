@@ -15,6 +15,7 @@ import CreateItinerary from './pages/Itinerary.jsx';
 import PackingAssistant from './pages/PackingAssistant.jsx';
 import SignUpForm from './components/SignUpForm.jsx';
 import SignInForm from './components/SignInForm.jsx';
+import HotelSuggestions from './pages/HotelSuggestions.jsx'
 
 const router = createBrowserRouter([
   {
@@ -49,7 +50,10 @@ const router = createBrowserRouter([
     path: "/signin",
     element: <SignInForm/>
   },
-  
+  {
+    path: "/hotel-suggestions",
+    element: <HotelSuggestions/>
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
